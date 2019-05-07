@@ -3,6 +3,8 @@
 //
 //
 // IMPORTAN be sure to run first: go get github.com/mattn/go-sqlite3
+//
+// For full details visit: https://github.com/mattn/go-sqlite3
 // to install this package inthe current directory
 ///////////////////////////////////////////////////////////////
 
