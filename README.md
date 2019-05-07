@@ -39,8 +39,8 @@ To create a windows executable (.exe) issue th ecommand below
 # Go References wen sites and links
 - [Go Lang :: Official Site ](https://www.golang.com)
 - [Learning Go Lang ] (https://blog.learngoprogramming.com/ )
-- [Reddit Go Programming Language] (https://www.reddit.com/r/golang/ ) 
-- [GoLang Code Snippets] (https://golangcode.com/)
+- [Reddit Go Programming Language ] (https://www.reddit.com/r/golang/ ) 
+- [GoLang Code Snippets ] (https://golangcode.com/)
 - [GoLang bot Tutorial ] (golangbot.com  )
 - [The Go Programming Language Blog] ( https://blog.golang.org/ )
 - [Applied Go  Beyond Tutorials] (https://appliedgo.net/)
