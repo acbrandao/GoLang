@@ -1,7 +1,7 @@
 # GoLang
 
 
-<img align="left" width="200" src="https://github.com/acbrandao/GoLang/blob/master/img/go.png">
+<img align="right" width="300" src="https://github.com/acbrandao/GoLang/blob/master/img/go.png">
 
 Go Lang code and scripts. Mostly for my learning and educational purposes.
 Go [[https://golang.org/]] is a compiled programming language developed at Google and popular for server side applications.
