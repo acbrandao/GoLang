@@ -68,7 +68,7 @@ For comparison on _go version go1.10.4 linux/amd64_
 | hello -ldflags "-s -w" | execuable   | 1.2 MB    |
 | hello upx --brute      | executable  | 350kb     |
 
-# Go References wen sites and links
+# Go References web  sites and links
 
 - [Go Lang :: Official Site ](https://www.golang.com)
 - [Learning Go Lang ](https://blog.learngoprogramming.com/)
