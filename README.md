@@ -1,10 +1,15 @@
 # GoLang
 
-Go Lang code and scripts. Mostly for my learning
+Go Lang code and scripts. Mostly for my learning and educational purposes.
+Go [[https://golang.org/]] is a compiled programming language developed at Google and popular for server side applications.
+The language is cross-platform and features a number of modern capabilities over traditional languages like C/C++ or Java
 
-# Sample GoLange program
 
-Below is a sample go lang program , saved as **hello.go**
+*Go is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added. The compiler, tools and source code are all free and open source* (source Wikipedia)
+
+# Sample Golang program
+
+Below is the simplest  Go lang program , saved as **hello.go**
 
 ```go
 package main
@@ -30,3 +35,8 @@ To create a windows executable (.exe) issue th ecommand below
 ```
 > GOOS=windows GOARCH=386 go build -o hello.exe hello.go
 ```
+
+# Go useful sites and links
+- [[ https://golang.org/    | official Go Lang Google Site ]]
+- [[https://blog.learngoprogramming.com/ | GoLang Learning ]]
+
