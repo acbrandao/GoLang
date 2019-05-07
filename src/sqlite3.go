@@ -1,3 +1,11 @@
+/////////////////////////////////////////////////////////
+// sqlite3 Sample demo using mattn driver at github.com/mattn/go-sqlite3
+//
+//
+// IMPORTAN be sure to run first: go get github.com/mattn/go-sqlite3
+// to install this package inthe current directory
+///////////////////////////////////////////////////////////////
+
 package main
 
 import (
