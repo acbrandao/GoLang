@@ -28,7 +28,7 @@ go run hello.go
 
 If there are no syntax issues it shoudl run cleanly
 
-# Compiling in Windows
+# Compiling in Windows or Linux
 
 To create a windows executable (.exe) issue th ecommand below
 
@@ -36,6 +36,34 @@ To create a windows executable (.exe) issue th ecommand below
 > GOOS=windows GOARCH=386 go build -o hello.exe hello.go
 ```
 
+For linux
+```
+GOOS=linux go build -o hello hello.go
+```
+
+# Reduce Go binary sizes
+Go binaries tend to be large , even for smallish source apps, this is primarily because Go applications contain a runtime which provides garbage collection, reflection and many other features (which your program might not really use, but it's there). And the implementation of the fmt package which you used to print the "Hello World" text (plus its dependencies). So most binaries start off in the 2MB to 6MB in size depending on what import (packages you include).  
+
+Some approaches to reduce binary size (mostly Linux)
+**use the -s and -w linker flags** to strip the debugging information like , reduces about 28% of binary size
+``` go build -ldflags "-s -w" -o hello hello.go ```
+
+Next run **upx** a Linux Ultimate Packer for eXecutables utilitity , which essentially zips the executable into a running format, this shoudl yield another 15% reduction in size.
+```
+go build -ldflags "-s -w" -o hello hello.go
+upx --brute hello 
+```
+
+For comparison on *go version go1.10.4 linux/amd64*
+
+| Program (Source)          | Adjustment  |  Size (MB) |
+|---------------------------|-------------|------------|
+| hello.go                  | source code |   87 bytes |
+| hello                     | executable  |  2.0 MB    |
+| hello   -ldflags "-s -w"  | execuable   |  1.2 MB    |
+| hello   upx --brute       | executable  |   350kb    |
+
+   
 # Go References wen sites and links
 - [Go Lang :: Official Site ](https://www.golang.com)
 - [Learning Go Lang ] (https://blog.learngoprogramming.com/ )
