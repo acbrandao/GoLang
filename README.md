@@ -36,7 +36,13 @@ To create a windows executable (.exe) issue th ecommand below
 > GOOS=windows GOARCH=386 go build -o hello.exe hello.go
 ```
 
-# Go useful sites and links
-- [[ https://golang.org/    | official Go Lang Google Site ]]
-- [[https://blog.learngoprogramming.com/ | GoLang Learning ]]
+# Go References wen sites and links
+- [Go Lang :: Official Site ](https://www.golang.com)
+- [Learning Go Lang ] (https://blog.learngoprogramming.com/ )
+- [Reddit Go Programming Language] (https://www.reddit.com/r/golang/ ) 
+- [GoLang Code Snippets] (https://golangcode.com/)
+- [GoLang bot Tutorial ] (golangbot.com  )
+- [The Go Programming Language Blog] ( https://blog.golang.org/ )
+- [Applied Go  Beyond Tutorials] (https://appliedgo.net/)
+
 
