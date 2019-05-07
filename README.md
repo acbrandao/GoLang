@@ -23,7 +23,8 @@ go run hello.go
 
 If there are no syntax issues it shoudl run cleanly
 
-#Compiling in Windows
+# Compiling in Windows
+
 To create a windows executable (.exe) issue th ecommand below
 
 ```
