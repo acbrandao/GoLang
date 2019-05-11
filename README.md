@@ -53,7 +53,7 @@ Some approaches to reduce binary size (mostly Linux)
 **use the -s and -w linker flags** to strip the debugging information like , reduces about 28% of binary size
 `go build -ldflags "-s -w" -o hello hello.go`
 
-Next run [**upx**](https://upx.github.io/) a Linux Ultimate Packer for eXecutables utilitity , which essentially zips the executable into a running format, this shoudl yield another 15% reduction in size.
+Next run [**upx**](https://upx.github.io/) a Linux Ultimate Packer for eXecutables utilitity , which essentially zips the executable into a running format, this should yield another 15% reduction in size.
 
 ```
 go build -ldflags "-s -w" -o hello hello.go
@@ -62,12 +62,12 @@ upx --brute hello
 
 For comparison on _go version go1.10.4 linux/amd64_
 
-| Program (Source)       | Adjustment  | Size (MB) |
-| ---------------------- | ----------- | --------- |
-| hello.go               | source code | 87 bytes  |
-| hello                  | executable  | 2.0 MB    |
-| hello -ldflags "-s -w" | execuable   | 1.2 MB    |
-| hello upx --brute      | executable  | 350kb     |
+| Program (Source)       | Adjustment  | File Type   | Size (MB) |
+| ---------------------- | ----------- | ------------|-----------|
+| hello.go               | none        |source code | 87 bytes  |
+| hello                  | none        |executable  | 2.0 MB    |
+| hello                  |  -ldflags "-s -w"  |execuable   | 1.2 MB    |
+| hello                  | upx --brute |executable  | 350kb     |
 
 # Go References web  sites and links
 
