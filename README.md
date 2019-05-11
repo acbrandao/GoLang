@@ -1,6 +1,8 @@
 # GoLang
 
-![alt text](https://github.com/acbrandao/GoLang/blob/master/img/golang_ride.png "GoLang Mascot")
+
+<img align="right" width="300" src="https://github.com/acbrandao/GoLang/blob/master/img/go.png">
+
 Go Lang code and scripts. Mostly for my learning and educational purposes.
 Go [[https://golang.org/]] is a compiled programming language developed at Google and popular for server side applications.
 The language is cross-platform and features a number of modern capabilities over traditional languages like C/C++ or Java. It's primarily intended to be run on server side applications, which makes its typical use case on par with languages like Java, C++ and Python.
@@ -67,9 +69,10 @@ For comparison on _go version go1.10.4 linux/amd64_
 | hello -ldflags "-s -w" | execuable   | 1.2 MB    |
 | hello upx --brute      | executable  | 350kb     |
 
-# Go References wen sites and links
+# Go References web  sites and links
 
 - [Go Lang :: Official Site ](https://www.golang.com)
+- [Go by Example ] (https://gobyexample.com/)
 - [Learning Go Lang ](https://blog.learngoprogramming.com/)
 - [Golang Online Book ](https://www.golang-book.com/books/intro)
 - [Reddit Go Programming Language ](https://www.reddit.com/r/golang/)
