@@ -5,7 +5,8 @@ Go Lang code and scripts. Mostly for my learning and educational purposes.
 Go [[https://golang.org/]] is a compiled programming language developed at Google and popular for server side applications.
 The language is cross-platform and features a number of modern capabilities over traditional languages like C/C++ or Java. It's primarily intended to be run on server side applications, which makes its typical use case on par with languages like Java, C++ and Python.
 
-_Go is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added. The compiler, tools and source code are all free and open source_ (source Wikipedia)
+_Go is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. Go is a statically typed compiled languals
+ge in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added. The compiler, tools and source code are all free and open source_ (source Wikipedia)
 
 # Sample Golang program
 
