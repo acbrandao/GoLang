@@ -9,6 +9,9 @@ The language is cross-platform and features a number of modern capabilities over
 
 _Go is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added. The compiler, tools and source code are all free and open source_ (source Wikipedia)
 
+# learning code in src/ folder  
+Most of the files in the src/ folder are for learning  pruposes, small snippets that allow me to learn a specific funciton of the language
+
 # Sample Golang program
 
 Below is the simplest Go lang program , saved as **hello.go**
