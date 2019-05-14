@@ -4,10 +4,18 @@ import (
 	 "fmt"
 )
 
+var i int=27
+
+
 func main() {
 
-	var i int =42
-	y:= 72
+
+	i:= 72
+	var j float32=27
+	
 	fmt.Println(i)
-	fmt.Println(y) 
+
+	fmt.Printf("%v, %T",i,i)
+	fmt.Printf("%v, %T",j,j)
+	
 }
