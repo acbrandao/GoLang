@@ -23,7 +23,15 @@ function run() {
     lines[i] = processLine(lines[i]);
   }
 
-  return lines.join("\n");
+  var cap_lines = lines.join("\n");
+
+  fs.writeFile("textfile_caps_nodejs.txt", cap_lines, function(err) {
+    if (err) {
+      return console.log(err);
+    }
+  });
+
+  return cap_lines;
 }
 
 console.log(run());

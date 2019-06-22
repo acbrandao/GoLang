@@ -11,4 +11,8 @@ def process_line(line):
 
 if __name__ == '__main__':
     data = open('textfile_1000kb.txt').read()
-    print process(data)
+    capitalzed= process(data)
+    print capitalzed
+    filew=open("textfile_caps_python.txt","w") 
+    filew.writelines(capitalzed)
+    filew.close()

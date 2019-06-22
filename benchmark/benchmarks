@@ -5,18 +5,19 @@
 # ###################################
 
 clear
-echo "System Runnin on is..  "
+echo "System Running on is..  "
 uname -a 
 echo "Processor is..."
 cat /proc/cpuinfo | grep 'model name' | uniq
 echo ""
+echo "Output is sent to /dev/null, remove to see output on screen."
 echo "Running Python bench.py bench mark"
 time python bench.py > /dev/null
 
 echo "Running NodeJS bench.js bench mark"
 time node bench.js > /dev/null
 
-echo "Running Go bench.go bench mark"
+echo "Compiling & Running Go bench.go bench mark"
 go build -o benchgo bench.go
 time ./benchgo > /dev/null
 echo ""
