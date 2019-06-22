@@ -1,10 +1,10 @@
 # GoLang vs. Python vs. Node Javascript Benchmark Test
 
-<p align="center">
-<img src="https://github.com/acbrandao/Reference/blob/master/img/030-html-5.png" width="128" style="float: left;">   
-  VS.
+ <p align="center">
+<img src="https://github.com/acbrandao/Reference/blob/master/img/019-go-lang.png" width="128" style="float: left;">   
+#  VS.
 <img src="https://github.com/acbrandao/Reference/blob/master/img/005-python.png" width="128" style="float: right;">
-  VS
+#  VS
 <img src="https://github.com/acbrandao/Reference/blob/master/img/029-javascript.png" width="128" style="float: left;">
 </p>
 
@@ -12,7 +12,13 @@
 
 This is a very simple benchmark of file processing and string manipulaiton in three common server-side languages. 
 The benchmark is very simple but may be increased if there's any interest.  First we read a 1MB text file, and 
-captilize every work and display it to the console.
+captilize every work and display it to the console, and time the results of each acript.
+
+## Requirements
+
+  * Requires Go Lang installed on youir system. [How to Intall Go Lang](https://tecadmin.net/install-go-on-ubuntu/)
+  * Requires Python installed on your system . [Instlal Python](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
+  * Requires NodeJS installed on your system. [Install NodeJS](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
 
 ## Installing
 
