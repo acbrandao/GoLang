@@ -32,7 +32,7 @@ captilize every work and display it to the console, and time the results of each
  ## Running the benchmarks 
  Run the included shell script:
  
- `
+ ```
  !/bin/bash
 ####################################
 #
@@ -47,7 +47,8 @@ time node bench.js > /dev/null
 echo "Running Go bench.go bench mark"
 go build -o benchgo bench.go
 time ./benchgo > /dev/null
-`
+````
+
  the benchmark shell script which runs and times each individual language.
  
  ``` chmod +x benchmark ```
