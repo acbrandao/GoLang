@@ -1,6 +1,6 @@
 # GoLang vs. Python vs. Node Javascript Benchmark Test
 
-<h2<
+<h2>
  <p align="center">
 <img src="https://github.com/acbrandao/Reference/blob/master/img/019-go-lang.png" width="128" style="float: left;">   
 VS.
