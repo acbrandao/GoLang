@@ -29,10 +29,11 @@ captilize every work and display it to the console, and time the results of each
  ``` git clone git@github.com:acbrandao/GoLang.git ```
  
  then cd into the _benchmark_ directory
- ```cd GoLang/benchmark/ ```
+  ```cd GoLang/benchmark/ ```
  
- and ```chmod  +x``` the benchmark shell script.
+ and ```chmod +x benchmarks ``` the benchmark shell script.
  
+ finall run the script..
  
  ## Running the benchmarks 
  Run the included shell script:
@@ -55,11 +56,13 @@ time ./benchgo > /dev/null
 ````
 
  the benchmark shell script which runs and times each individual language.
- 
- ``` chmod +x benchmark ```
- then run the script
- 
-``` ./benchmark```
+chmod +x and run the script 
+ ``` 
+ chmod +x benchmarks
+ ./benchmarks
+ ```
+
+``` ./benchmarks```
 
 # Benchmark Script
 
