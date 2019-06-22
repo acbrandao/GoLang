@@ -26,7 +26,9 @@ captilize every work and display it to the console, and time the results of each
 
   Simply git clone this repository
   
- ``` git clone https://github.com/acbrandao/GoLang/new/master/benchmark ```
+ ``` git clone git@github.com:acbrandao/GoLang.git ```
+ 
+ then cd into the _benchmark_ directory and ```chmod  +x``` the benchmark shell script.
  
  
  ## Running the benchmarks 
