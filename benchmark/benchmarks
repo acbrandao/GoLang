@@ -1,6 +1,5 @@
 !/bin/bash
 ####################################
-#
 # benchmarks script, runs three seperate programs in python, nodejs and golang
 # which reads a large text file and capitlaizes it to check performance
 ####################################
