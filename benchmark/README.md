@@ -18,7 +18,7 @@ The benchmark is very simple but may be increased if there's any interest. The b
 - First we read a 1MB text file, and
 - captilize every word and display (o r >> dev> null ) it to the console,
 - then _re-write_ the capitlized file to disk .
-  And time the results of each acript.
+  fnally we time the results of each script.
 
 ## Requirements
 
