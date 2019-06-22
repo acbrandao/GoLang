@@ -30,7 +30,25 @@ captilize every work and display it to the console, and time the results of each
  
  
  ## Running the benchmarks 
- and run the benchmark shell script which runs and times each individual language.
+ Run the included shell script:
+ 
+ `
+ !/bin/bash
+####################################
+#
+# benchmarks script, runs three seperate programs in python, nodejs and golang
+# which reads a large text file and capitlaizes it to check performance
+####################################
+
+echo "Running Python bench.py bench mark"
+time python bench.py > /dev/null
+echo "Running NodeJS bench.js bench mark"
+time node bench.js > /dev/null
+echo "Running Go bench.go bench mark"
+go build -o benchgo bench.go
+time ./benchgo > /dev/null
+`
+ the benchmark shell script which runs and times each individual language.
  
  ``` chmod +x benchmark ```
  then run the script
