@@ -12,10 +12,13 @@ VS.
 
 ## The Benchmark
 
-This is a very simple benchmark of file processing and string manipulaiton in three common server-side languages.
-The benchmark is very simple but may be increased if there's any interest. First we read a 1MB text file, and
-captilize every word and display (o r >> dev> null ) it to the console, then _re-write_ the capitlized file to disk .
-And time the results of each acript.
+This is a very simple benchmark of file processing and string manipulaiton in three popular server-side languages.
+The benchmark is very simple but may be increased if there's any interest. The benchmark simply does is
+
+- First we read a 1MB text file, and
+- captilize every word and display (o r >> dev> null ) it to the console,
+- then _re-write_ the capitlized file to disk .
+  And time the results of each acript.
 
 ## Requirements
 
