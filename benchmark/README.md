@@ -28,7 +28,10 @@ captilize every work and display it to the console, and time the results of each
   
  ``` git clone git@github.com:acbrandao/GoLang.git ```
  
- then cd into the _benchmark_ directory and ```chmod  +x``` the benchmark shell script.
+ then cd into the _benchmark_ directory
+ ```cd GoLang/benchmark/``
+ 
+ and ```chmod  +x``` the benchmark shell script.
  
  
  ## Running the benchmarks 
