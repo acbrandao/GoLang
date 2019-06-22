@@ -70,11 +70,34 @@ To run this benchmark on a Linux system (yes, you probably can run it in Windows
 
 # Benchmark results.
 
-Run this on your system, your actual results of course will vary based on your hardware.   Below are mine run on I7 wuth 16GB or Ram
-For comparison on Ubuntu Linux XPS15i7 4.4.0-17763-Microsoft #379-Microsoft Wed Mar 06 19:16:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux4_
+Run this on your system, your actual results of course will vary based on your hardware.   Below are mine run on I7 with 16GB or R\
+```
+System Runnin on is..
+Linux XPS15i7 4.4.0-17763-Microsoft #379-Microsoft Wed Mar 06 19:16:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux
+Processor is...
+model name      : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+
+Running Python bench.py bench mark
+
+real    0m0.051s
+user    0m0.016s
+sys     0m0.031s
+Running NodeJS bench.js bench mark
+
+real    0m0.136s
+user    0m0.109s
+sys     0m0.031s
+Running Go bench.go bench mark
+
+real    0m0.023s
+user    0m0.000s
+sys     0m0.016s
+```
+
+AS you can see, Go is 2x as fast as Python and 5X faster than node on this relatively simple benchmark.
 
 | Program (Source)       | Time (s)  |  Size (MB) |
 | ---------------------- | ----------| ----------|
-| bench.go               | none      |  1.0 MB  |
-| bench.py               | one       |  1.0 MB    |
-| bench.js               |           |  1.0 MB    |
+| bench.go               | 0m0.023s  | 1.0 MB  |
+| bench.py               | 0m0.051s  |  1.0 MB    |
+| bench.js               | 0m0.136s  |  1.0 MB    |
