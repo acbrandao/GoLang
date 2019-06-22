@@ -1,5 +1,13 @@
 # GoLang vs. Python vs. Node Javascript Benchmark Test
 
+<p align="center">
+<img src="https://github.com/acbrandao/Reference/blob/master/img/030-html-5.png" width="128" style="float: left;">   
+  VS.
+<img src="https://github.com/acbrandao/Reference/blob/master/img/005-python.png" width="128" style="float: right;">
+  VS
+<img src="https://github.com/acbrandao/Reference/blob/master/img/029-javascript.png" width="128" style="float: left;">
+</p>
+
 ## The Benchmark
 
 This is a very simple benchmark of file processing and string manipulaiton in three common server-side languages. 
