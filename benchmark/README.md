@@ -100,7 +100,7 @@ sys     0m0.016s
 
 ```
 
-AS you can see, Go is 2x as fast as Python and 5X faster than node on this relatively simple benchmark.
+AS you can see, Go is ~2x as fast as Python and ~5X faster than node on this relatively simple benchmark.
 
 | Program (Source) | Time (s) | Size (MB) |
 | ---------------- | -------- | --------- |
